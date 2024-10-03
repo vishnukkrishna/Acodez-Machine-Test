@@ -204,7 +204,7 @@ ul {
 }
 
 .text {
-  font-size: 18px;
+  font-size: 22px;
   font-weight: 500;
   color: #ffdd1e;
 }
@@ -614,5 +614,97 @@ ul {
   .deecee-image img {
     max-width: 80%;
     margin: 0 auto;
+  }
+}
+
+/* ...................................................... */
+
+/* Section 3 */
+.features-section h1 {
+  text-align: center;
+  font-size: 30px;
+  color: #1d4e89;
+  margin-top: 40px;
+}
+
+.feature-card {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 40px;
+  transition: transform 0.3s ease;
+  width: 80%;
+  justify-content: space-between;
+}
+
+.card-2 {
+  margin-left: 240px;
+}
+
+.card-4 {
+  margin-left: 240px;
+}
+
+.card-6 {
+  margin-left: 240px;
+}
+
+.feature-card img {
+  width: 200px;
+  height: auto;
+  margin-left: 20px;
+}
+
+.feature-content {
+  max-width: 70%;
+  text-align: left;
+}
+
+.feature-content h3 {
+  font-size: 20px;
+  color: #1d4e89;
+  margin-bottom: 10px;
+}
+
+.feature-content p {
+  font-size: 16px;
+  color: #7a7a7a;
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .feature-card {
+    flex-direction: column;
+    text-align: center;
+    width: 100%;
+  }
+
+  .card-2 {
+    margin-left: 0;
+  }
+
+  .card-4 {
+    margin-left: 0;
+  }
+
+  .card-6 {
+    margin-left: 0;
+  }
+
+  .feature-card img {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+
+  .feature-content {
+    max-width: 100%;
+    text-align: center;
   }
 }
