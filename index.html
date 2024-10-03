@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homepage</title>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Remix Icon -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Normal css file -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Top NavBar -->
+    <header class="top-navbar">
+      <div class="container top-navbar-container">
+        <div class="contact-info">
+          <i class="fa-solid fa-phone icon"></i>
+          <span>011-40848482</span>
+        </div>
+        <ul class="top-navbar-links">
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">FAQs</a></li>
+        </ul>
+      </div>
+    </header>
+
+    <!-- Main NavBar -->
+    <nav class="main-navbar">
+      <div class="container main-nav-container">
+        <a href="#" class="logo">
+          <img src="/img/DEECEE WEBSITE LOGO.png" alt="DEECEE Logo" />
+        </a>
+        <div class="menu" onclick="toggleMenu()">
+          <i class="fa fa-bars"></i>
+        </div>
+
+        <ul class="nav-links">
+          <li>
+            <a href="#"><i class="fa-solid fa-house"></i></a>
+          </li>
+          <li><a href="#">Courses Offered</a></li>
+          <li><a href="#">Live Classes</a></li>
+          <li><a href="#">Free Videos</a></li>
+          <li><a href="#">Study Material</a></li>
+          <li><a href="#" class="btn btn-contact">Contact Us</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- Header Section -->
+    <section class="header-section">
+      <div class="container header-container">
+        <div class="header-content">
+          <p class="text">Premium Course</p>
+          <h1>THE EARLY BIRDS BATCH</h1>
+          <h2>CLASS - 12, SECTION 2023 - 24</h2>
+          <h3>ACCOUNTANCY</h3>
+          <ul class="feature-list">
+            <li><i class="ri-checkbox-circle-fill"></i> Complete Syllabus</li>
+            <li><i class="ri-checkbox-circle-fill"></i> Revision</li>
+            <li><i class="ri-checkbox-circle-fill"></i> Doubt Support</li>
+            <li><i class="ri-checkbox-circle-fill"></i> Test Series</li>
+            <li><i class="ri-checkbox-circle-fill"></i> PDF Notes</li>
+          </ul>
+          <div class="carousel-indicators">
+            <button type="button" class="indicator active"></button>
+            <button type="button" class="indicator"></button>
+            <button type="button" class="indicator"></button>
+            <button type="button" class="indicator"></button>
+          </div>
+        </div>
+        <div class="header-image">
+          <img src="/img/students 1.png" alt="Students studying" />
+        </div>
+      </div>
+    </section>
+    <!-- Custom JS -->
+    <script src="main.js"></script>
+  </body>
+</html>
