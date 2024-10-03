@@ -1045,3 +1045,152 @@ ul {
 
 /* ...................................................... */
 
+/* Section 7 */
+.callback-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 30px;
+}
+
+.callback-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.callback-image img {
+  width: 100%;
+  max-width: 400px;
+  object-fit: cover;
+}
+
+.callback-form {
+  padding: 50px;
+  width: 100%;
+  max-width: 670px;
+  height: 520px;
+  margin-bottom: 10px;
+  border-radius: 35px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+.callback-form h2 {
+  color: #1d4b8f;
+  font-size: 34px;
+  margin-bottom: 10px;
+}
+
+.callback-form p {
+  margin-bottom: 30px;
+  font-size: 18px;
+  color: #6c757d;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.form-row input,
+.form-row select {
+  width: 48%;
+  padding: 10px 20px;
+  border: 1px solid #ced4da;
+  color: #6c757d;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px 15px;
+  border: 1px solid #ced4da;
+  border-radius: 5px;
+  font-size: 14px;
+  margin-bottom: 20px;
+  min-height: 100px;
+}
+
+button.form-btn {
+  background-color: #ffdd1e;
+  color: black;
+  padding: 20px 25px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.mbtn {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  z-index: 2;
+  margin-top: 30px;
+}
+
+button.form-btn:hover {
+  background-color: #f0c929;
+}
+
+@media (max-width: 768px) {
+  .callback-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .callback-image {
+    display: none;
+  }
+
+  .callback-form {
+    padding: 20px;
+    width: 90%;
+    max-width: none;
+  }
+
+  .form-row {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .form-row input,
+  .form-row select {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .mbtn {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 480px) {
+  .callback-form {
+    max-width: 670px;
+    height: 660px;
+  }
+
+  .callback-form h2 {
+    font-size: 28px;
+  }
+
+  .callback-form p {
+    font-size: 16px;
+  }
+
+  .mbtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+  }
+}
+
+/* ...................................................... */
+
