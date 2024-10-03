@@ -523,7 +523,7 @@ ul {
 /* Section 2 */
 .deecee-section {
   display: flex;
-  background-image: url("/img/why-deecee-bg.png");
+  background-image: url("/img/deecee-bg.png");
   background-size: cover;
   background-position: center;
   padding: 50px;
