@@ -1194,3 +1194,151 @@ button.form-btn:hover {
 
 /* ...................................................... */
 
+/* Section 8 */
+.popular-btn button {
+  background-color: #f6f6f6;
+  height: 40px;
+  color: #7f7b7b;
+  border: 2px solid rgb(161, 159, 159);
+  border-radius: 27%;
+  padding: 12px 12px;
+  cursor: pointer;
+  font-size: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  border: 2px solid black;
+}
+
+.popular-courses {
+  text-align: center;
+  padding: 20px;
+}
+
+.popular-head h2 {
+  color: #01539d;
+  font-size: 30px;
+}
+
+.popular-courses h2 {
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.courses-container {
+  display: flex;
+  flex-direction: row;
+  max-width: 100vw;
+  overflow-x: hidden;
+  gap: 20px;
+}
+
+.course-card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 2px 2px rgba(59, 59, 59, 0.1);
+  text-align: left;
+  margin: 10px;
+  flex: 0 0 auto;
+  width: 250px;
+}
+
+.popular-head {
+  display: flex;
+  justify-content: space-between;
+}
+
+.popular-btn {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.popular-btn i {
+  font-size: 16px;
+}
+
+.course-card img {
+  width: 100%;
+  border-bottom: 1px solid #ddd;
+}
+
+.course-card p {
+  padding: 15px;
+  color: #596670;
+  font-weight: 600;
+}
+
+.navigation-arrows {
+  display: flex;
+  justify-content: end;
+  width: 20px;
+  margin-left: 10px;
+}
+
+.navigation-arrows button {
+  background-color: white;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  font-size: 18px;
+  padding: 5px;
+}
+
+.navigation-arrows button:hover {
+  background-color: #1a73e8;
+  color: white;
+  border-color: #1a73e8;
+}
+
+.carousel {
+  display: flex;
+  align-items: center;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+}
+
+.courses-container {
+  display: flex;
+  transition: transform 0.3s ease-in-out;
+}
+
+.navigation-arrows {
+  display: none;
+}
+
+/* Responsive Media Queries */
+@media (max-width: 768px) {
+  .courses-container {
+    justify-content: center;
+  }
+
+  .course-card {
+    width: 45%;
+    max-width: 100%;
+  }
+
+  .navigation-arrows {
+    margin-top: 20px;
+    justify-content: center;
+  }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+  .course-card {
+    width: 100%;
+  }
+
+  .navigation-arrows {
+    margin-top: 10px;
+    justify-content: center;
+    width: auto;
+  }
+
+  .navigation-arrows button {
+    font-size: 16px;
+    padding: 8px;
+  }
+}
