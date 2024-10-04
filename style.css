@@ -1405,6 +1405,13 @@ button:hover {
   margin-left: 30px;
 }
 
+.hrr {
+  border: none;
+  height: 1px;
+  background-color: #c2c9cf;
+  margin: 20px 0;
+}
+
 .footer-column {
   flex: 1;
   min-width: 200px;
@@ -1508,3 +1515,13 @@ button:hover {
 
 /* ...................................................... */
 
+/* Small Footer */
+.footer {
+  background-color: #ffffff;
+  color: #1e1e1e;
+  padding: 20px 0;
+  text-align: start;
+  font-size: 16px;
+}
+
+/* ...................................................... */
