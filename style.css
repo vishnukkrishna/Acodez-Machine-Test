@@ -1342,3 +1342,169 @@ button:hover {
     padding: 8px;
   }
 }
+
+/* ...................................................... */
+
+/* Footer */
+.footer-section {
+  background-color: #f1f5f9;
+  padding: 40px 0;
+  color: #495057;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.footer-logo {
+  flex: 1;
+  max-width: 350px;
+  margin-bottom: 20px;
+}
+
+.footer-logo img {
+  width: 150px;
+  margin-bottom: 20px;
+}
+
+.footer-logo p {
+  margin-bottom: 20px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer-logo .reach {
+  margin-top: 10px;
+  font-size: 17px;
+}
+
+.contact-infos p {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #1e1e1e;
+}
+
+.contact-infos i {
+  margin-right: 10px;
+  color: #01539d;
+}
+
+.app-links img {
+  width: 135px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.footer-links {
+  display: flex;
+  flex: 2;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: 30px;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 200px;
+  margin-bottom: 20px;
+  margin-left: 60px;
+}
+
+.footer-column h4 {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #1e1e1e;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+  color: #6c757d;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.footer-column ul li a:hover {
+  text-decoration: underline;
+}
+
+.social-links {
+  margin-top: 10px;
+}
+
+.social-links a {
+  display: block;
+  color: #6c757d;
+  margin-bottom: 10px;
+  text-decoration: none;
+  font-size: 14px;
+  margin-right: 20px;
+  color: inherit;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: color 0.3s ease;
+}
+
+.social-links a .youtube {
+  color: #ff0000;
+}
+
+.social-links a .instagram {
+  background: linear-gradient(
+    45deg,
+    #f09433,
+    #e6683c,
+    #dc2743,
+    #cc2366,
+    #bc1888
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+.social-links a .facebook {
+  color: #1877f2;
+}
+
+.social-links a .linkedin {
+  color: #0a66c2;
+}
+
+.social-links i {
+  margin-right: 10px;
+}
+
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+  }
+
+  .footer-logo,
+  .footer-column {
+    max-width: 100%;
+  }
+
+  .footer-column {
+    margin-left: 0;
+  }
+
+  .footer-links {
+    margin-left: 0;
+  }
+}
+
+/* ...................................................... */
+
